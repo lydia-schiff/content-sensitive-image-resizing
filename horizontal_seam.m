@@ -28,7 +28,10 @@ for col = 2:size(I,2)
     end
 end
 
-%saveas(imagesc(M),'E2b.jpg');
+%M = permute(M,[2 1 3]);
+%imagesc(M);
+%M = permute(M,[2 1 3]);
+
 
 % calculate index of lowest cumulative energy value in last column
 [C,index] = min(M(:,size(I,2)));

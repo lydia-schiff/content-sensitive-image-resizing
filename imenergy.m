@@ -5,5 +5,7 @@ J = rgb2gray(I);
 X = abs(DX);
 Y = abs(DY);
 E = bsxfun(@plus,X,Y);
-%imshow(E)
+E = permute(E,[2 1 3]);
+imagesc(E);
+E = permute(E,[2 1 3]);
 end
