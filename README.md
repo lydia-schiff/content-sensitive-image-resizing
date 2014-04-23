@@ -22,4 +22,4 @@ The interesting bits are the same, but the distance between them has changed.
 
 ![matches](result_photos/seam5.png?raw=true)
 
-In this last one, the image is reduced in pixels by 75%, but all the baloons are still there and they are all the same size, which is highly-awesome.
+In this last one, the image is reduced in pixels by 75%, but all the balloons are still there and they are all the same size, which is highly-awesome.
